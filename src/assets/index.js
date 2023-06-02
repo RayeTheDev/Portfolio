@@ -34,7 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import volfour from "./volfour.png";
 import tiny from './tiny.png'
-import boginoo from './boginoo.png';
+import boginoo from './Boginoo.png';
 import uno from './uno.png';
 import unread from './unread.png';
 import invader from './invader.png';
