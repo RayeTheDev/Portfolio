@@ -1,0 +1,10 @@
+export * from './About'
+export * from './Contact'
+export * from './Experience'
+export * from './Feedbacks'
+export * from './Hero'
+export * from './NavBar'
+export * from './StarsCanvas'
+export * from './Tech'
+export * from './Works'
+
