@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { AiFillFacebook, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 
 export const NavBar = () => {
   const [active, setActive] = useState("");
@@ -25,7 +26,28 @@ export const NavBar = () => {
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden sm:flex flex-row gap-8 items-center">
+          <div className="flex  gap-5">
+            <a
+              className="cursor-pointer"
+              target="blank"
+              href="https://www.facebook.com/Fateu9/">
+              <AiFillFacebook className="w-[30px] h-[30px]  " />
+            </a>
+            <a
+              className="cursor-pointer"
+              target="blank"
+              href="https://www.instagram.com/innerrae02/">
+              <AiFillInstagram className="w-[30px] h-[30px] cursor-pointer" />
+            </a>
+            <a
+              className="cursor-pointer"
+              target="blank"
+              href="https://github.com/RayeTheDev">
+              <AiFillGithub className="w-[30px] h-[30px] cursor-pointer" />
+            </a>
+          </div>
+
           {navLinks.map((link) => {
             return (
               <li
@@ -50,7 +72,25 @@ export const NavBar = () => {
             className={`${
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
-            <ul className="list-none flex flex justify-end items-start flex-col gap-4">
+            <ul className="list-none flex justify-end items-start flex-col gap-4">
+              <a
+                className="cursor-pointer"
+                target="blank"
+                href="https://www.facebook.com/Fateu9/">
+                Facebook
+              </a>
+              <a
+                className="cursor-pointer"
+                target="blank"
+                href="https://www.instagram.com/innerrae02/">
+                Insatgram
+              </a>
+              <a
+                className="cursor-pointer"
+                target="blank"
+                href="https://github.com/RayeTheDev">
+                Github
+              </a>
               {navLinks.map((link) => {
                 return (
                   <li
