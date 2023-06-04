@@ -134,7 +134,7 @@ const experiences = [
         company_name: "Pinecone Academy",
         icon: pinecone,
         iconBg: "#383E56",
-        date: "Jan 2021 - Feb 2022",
+        date: "Sep 2022 - May 2023",
         points: [
             "React",
             "NodeJS",
