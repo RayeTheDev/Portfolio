@@ -32,14 +32,14 @@ const About = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Hello! My name is Turbold Delgerbayar. Im student of 5th school that
-          is located in the center of Ulaanbaatar. Aside of my high school I
-          also study and learn programming in Pinecone Academy. My passion is
-          work in popular and renowned companies as a developer. But now I'm
-          looking for internships to prepare myself and experiencing knowledge
-          such as work as a team to step further in my career. What I've learnt
-          during my time in Pinecone is C, HTML, CSS, JS, MERN, Figma and
-          Github.
+          Hello! My name is Turbold Delgerbayar. Im a student of the 5th school
+          that is located in the center of Ulaanbaatar. Aside from my high
+          school I also study and learn programming in Pinecone Academy. My
+          passion is to work in popular and renowned companies as a developer.
+          But now I'm looking for internships to prepare myself and experience
+          knowledge such as working as a team to step further in my career. What
+          I've learned during my time in Pinecone is C, HTML, CSS, JS, MERN,
+          Figma, and Github.
         </motion.p>
       </motion.div>
 
